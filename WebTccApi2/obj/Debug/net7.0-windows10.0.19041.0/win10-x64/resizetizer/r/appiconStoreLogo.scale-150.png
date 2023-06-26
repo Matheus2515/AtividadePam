@@ -1,0 +1,9 @@
+ive - {organization name} sera le chemin d’accès que vous spécifiez dans le fichier OneDrive.admx. Pour empêcher les utilisateurs de modifier l’emplacement que vous spécifiez, activez le paramètre « Empêcher les utilisateurs de modifier l’emplacement de leur dossier OneDrive ».
+
+Si vous désactivez ou ne configurez pas ce paramètre, l’emplacement par défaut du dossier OneDrive - {organization name} sera dans %userprofile%.</string>
+
+      <!-- disable changing the default location of the OneDrive folder -->
+      <string id="DisableCustomRoot">Empêcher les utilisateurs de modifier l’emplacement de leur dossier OneDrive</string>
+      <string id="DisableCustomRoot_help">Ce paramètre vous permet d'empêcher les utilisateurs de modifier l'emplacement de leur dossier OneDrive - {organization name} lors de la configuration de l'application de synchronisation OneDrive.
+
+Si vous activez ce paramètre, le lien « Changer d'emplacement » est masqué dans la configuration OneDrive. Le dossier OneDrive sera créé dans l'emplacement par défaut, ou dans l'emplacement personnalisé que vous avez spécifié si vous avez activé l'emplacement pa

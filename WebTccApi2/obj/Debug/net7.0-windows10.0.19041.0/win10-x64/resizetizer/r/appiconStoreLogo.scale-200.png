@@ -1,0 +1,9 @@
+s modifier les paramètres et fusionner les modifications.</string>
+
+      <!-- Enable Automatic Upload Bandwidth Limiting -->
+      <string id="AutomaticUploadBandwidthPercentage">Limiter le taux de chargement de l’application de synchronisation à un pourcentage du débit</string>
+      <string id="AutomaticUploadBandwidthPercentage_help">Ce paramètre vous permet de trouver l’équilibre entre les performances de chargement de différentes tâches sur un ordinateur en spécifiant le pourcentage de débit de chargement de l’ordinateur que l’application de synchronisation OneDrive (OneDrive.exe) peut utiliser pour charger des fichiers. Configurer ce paramètre comme un pourcentage permet à l’application de synchronisation de répondre à la fois aux augmentations et baisses de débit. Plus vous définissez le pourcentage bas, plus les fichiers seront chargés lentement. Nous vous recommandons une valeur de 50 % ou plus. L’application de synchronisation téléchargera périodiquement sans restriction pendant une minute, puis ralentira jjusqu’au pourcentage de chargement que vous aurez défini. Cela permet aux petits fichiers d’être chargés rapidement tout en empêchant que les chargements volumineux dominent le débit de chargement de l’ordinateur.
+
+        Si vous activez ce paramètre, les ordinateurs utilisent le pourcentage de débit de chargement que vous spécifiez lors du chargement de fichiers vers OneDrive et les utilisateurs ne pourront pas le modifier.
+
+        Si vous désactivez ou ne configurez pas ce paramètre, les utilisateurs peuvent choisir de limiter le taux de cha

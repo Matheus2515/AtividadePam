@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebTccApi2.Views.Cortes.ListagemCorteView"
+             Title="ListagemCorteView">
+    
+    <Shell.TitleView>
+        <Button Command="{Binding NovoCorte}" Text="Novo" HorizontalOptions="End"></Button>
+    </Shell.TitleView>
+
+    <VerticalStackLayout Padding="10, 0, 0, 0" VerticalOptions="FillAndExpand">
+        <ListView x:Name="listView" HasUnevenRows="True" ItemsSource="{Binding Cortes}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.ContextActions>
+                            <MenuItem Text="Remover" IsDestructive="True"
+                                              Command="{Binding Path=BindingContext.RemoverCorteCommand, Source={x:Reference listView}}"
+                                              CommandParameter="{Binding .}"></MenuItem>
+                        </ViewCell.ContextActions>
+                        <StackLayout Padding="10">
+                            <Label Text="{Binding Estilo}" FontSize="18" FontAttributes="Bold"/>
+                            <Label Text="{Binding Descricao}" FontSize="14"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </VerticalStackLayout>
+</ContentPage>

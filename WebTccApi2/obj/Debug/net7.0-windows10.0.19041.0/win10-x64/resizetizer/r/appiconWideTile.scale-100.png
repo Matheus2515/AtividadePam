@@ -1,0 +1,17 @@
+eDrive”.
+
+Jeśli to ustawienie zostanie wyłączone lub nie zostanie skonfigurowane, domyślną lokalizacją folderu OneDrive — {organization name} będzie ścieżka w folderze %userprofile%.</string>
+
+      <!-- disable changing the default location of the OneDrive folder -->
+      <string id="DisableCustomRoot">Uniemożliwianie użytkownikom zmiany lokalizacji folderu usługi OneDrive</string>
+      <string id="DisableCustomRoot_help">To ustawienie służy do blokowania użytkownikom możliwości zmiany lokalizacji folderu OneDrive-{organization name} podczas instalacji aplikacji do synchronizacji usługi OneDrive.
+
+Jeśli to ustawienie jest włączone, link „Zmień lokalizację” jest ukryty w ustawieniach usługi OneDrive. Folder usługi OneDrive jest tworzony w lokalizacji domyślnej lub w niestandardowej lokalizacji określonej po włączeniu ustawienia „Ustaw domyślną lokalizację folderu usługi OneDrive”.
+
+Jeśli wyłączysz to ustawienie lub go nie skonfigurujesz, użytkownicy mogą kliknąć link „Zmień lokalizację”, aby zmienić lokalizację folderu usługi OneDrive w ustawieniach tej usługi.</string>
+
+      <!-- Enable Office Integration for coauthoring and in-app sharing -->
+      <string id="EnableAllOcsiClients">Współtworzenie i udostępnianie w klasycznych aplikacjach pakietu Office</string>
+      <string id="EnableAllOcsiClients_help">To ustawienie pozwala wielu użytkownikom na jednoczesne edytowanie pliku pakietu Office przechowywanego w usłudze OneDrive za pomocą aplikacji klasycznych pakietu Office 365 ProPlus, Office 2019 lub Office 2016. Umożliwia także użytkownikom udostępnianie plików z aplikacji klasycznych pakietu Office.
+
+Po włączeniu tego ustawienia, współtworzenie i udostępnianie w aplikacjach klasycznych pakietu Office jest włączone. Użytkownicy mogą wyłączyć te funkcje, otwierając ustawienia aplikacji do synchronizacji usługi OneDrive, klikając kart

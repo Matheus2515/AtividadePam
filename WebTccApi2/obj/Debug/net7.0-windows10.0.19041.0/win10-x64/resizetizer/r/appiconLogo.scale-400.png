@@ -1,0 +1,20 @@
+e OneDrive folder -->
+      <string id="DisableCustomRoot">사용자가 OneDrive 폴더의 위치를 변경할 수 없도록 합니다.</string>
+      <string id="DisableCustomRoot_help">이 설정을 사용하면 OneDrive 동기화 앱을 설정하는 동안 사용자가 OneDrive - {organization name} 폴더의 위치를 변경하지 못하도록 차단할 수 있습니다.
+
+이 설정을 사용하도록 설정하면 OneDrive 설정에 "위치 변경" 링크가 숨김이 있습니다. OneDrive 폴더는 기본 위치 또는 "OneDrive 폴더의 기본 위치 설정" 설정을 사용하도록 설정한 경우 지정한 사용자 지정 위치에 만들어집니다.
+
+이 설정을 사용하지 않도록 설정하거나 구성하지 않으면 사용자는 "위치 변경" 링크를 클릭하여 OneDrive 설정에서 OneDrive 폴더의 위치를 변경할 수 있습니다.</string>
+
+      <!-- Enable Office Integration for coauthoring and in-app sharing -->
+      <string id="EnableAllOcsiClients">Office 데스크톱 앱에서 공동 작성 및 공유</string>
+      <string id="EnableAllOcsiClients_help">이 설정을 사용하면 여러 사용자가 Office 365 ProPlus, Office 2019 또는 Office 2016 데스크톱 앱을 사용하여 OneDrive에 저장된 Office 파일을 동시에 편집할 수 있습니다. 또한 사용자가 Office 데스크톱 앱에서 파일을 공유할 수 있습니다.
+
+이 설정을 사용하도록 설정하면 Office 데스크톱 앱에서 공동 작성 및 공유가 활성화됩니다. 사용자는 OneDrive 동기화 앱 설정을 열고 Office 탭을 클릭하고 "Office 응용 프로그램을 사용하여 내가 여는 Office 파일을 동기화"확인란을 선택 취소하여 이러한 기능을 비활성화할 수 있습니다.
+
+이 설정을 사용하지 않도록 설정하면 Office 데스크톱 앱에서 공동 작성 및 공유가 비활성화되고 동기화 앱에 Office 탭이 숨김이 있습니다. "Office 파일 충돌" 설정도 비활성화 되며 두 버전의 파일 충돌, 두 복사본유지 됩니다.</string>
+
+
+      <!-- Enable hold the file for handling Office conflicts -->
+      <string id="EnableHoldTheFile">사용자가 Office 파일 동기화 충돌의 처리 방법을 선택할 수 있도록 허용</string>
+      <string id="EnableHoldTheFile_help">이 설정은 동기화 하는 동안 Office 파일 버전 간에 충
